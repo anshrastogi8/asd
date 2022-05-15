@@ -87,7 +87,7 @@ function countBmi(){
 
   var t = document.createTextNode(result);
   var b = document.createTextNode('BMI: ');
-  var r = document.createTextNode(parseFloat(bmi).toFixed(2));
+  var r = document.createTextNode(parseFloat(bmi).toFixed(20));
   
   h1.appendChild(t);
   h2.appendChild(b);
@@ -101,6 +101,14 @@ function countBmi(){
 document.getElementById("submit").addEventListener("click", countBmi);
 </script>
     	</div>
+        
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/anshrastogi8"><i class="fab fa-github fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Project by A.R</p>
+       </div>
 
      
     </body>
