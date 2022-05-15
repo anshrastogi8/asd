@@ -417,7 +417,7 @@ h3 b {
 /* Footer */
 .footer{
 	flex-shrink: 0;
-	position: relative;
+	position: fixed;
 	padding: 20px;
 	background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f);
 	background-size: 500% 500%;
